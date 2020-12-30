@@ -1,0 +1,27 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: rgb(110, 142, 179);
+}
+:root {
+	--lg-color: linear-gradient(to right, rgb(177, 43, 255), grey);
+}
+
+#nav {
+	text-align: center;
+	font-weight: 600;
+	color: rgb(18, 110, 110);
+	background-color: rgb(9, 25, 41);
+	justify-content: center;
+}
+#nav:active {
+	color: rgb(77, 196, 196);
+	background-color: rgb(30, 77, 121);
+}
+#tag {
+	text-align: center;
+	font-weight: 600;
+	color: rgb(222, 228, 222);
+	background-color: rgb(79, 94, 89);
+	justify-content: center;
+}

@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+    h3#w Add Booking
+        form(action="/bookings/add",method="post")
+            .form-group
+                label(for="name") Name
+                input#name(type="text",class="form-control", name="name")
+            .form-group
+                label(for="table_no") table no
+                input#table_no(type="text",class="form-control", name="table_no")
+            .form-group
+                label(for="date") Date
+                input#date(type="date",class="form-control", name="date")
+            input(type="submit", class="btn btn-info" )
